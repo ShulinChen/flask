@@ -1,1 +1,1 @@
-web: python dealscraper/jqueryexample.py
+web: gunicorn jqueryexample:app --log-file=-
